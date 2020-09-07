@@ -1,0 +1,25 @@
+{
+  "name": "eat-da-burger-app",
+  "version": "1.0.0",
+  "description": "This app is all about eating burgers, yes, that's right! You'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML. * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. ```",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APopp524/Eat-Da-Burger-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APopp524/Eat-Da-Burger-App/issues"
+  },
+  "homepage": "https://github.com/APopp524/Eat-Da-Burger-App#readme"
+}
