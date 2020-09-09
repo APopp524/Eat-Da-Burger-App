@@ -1,23 +1,42 @@
-<nav class="navbar bg-dark">
-    <img src="/assets/img/burger_logo.jpg" height="80" class="d-inline-block align-top mx-auto" alt="">
-</nav>
-<div class="container my-5">
+<h1>Eat-Da-Burger!</h1>
+
+<main>
+  <div class="container">
     <div class="row">
-        <div class="col">
-            {{> uneaten-burger }}
-        </div>
-        <div class="col">
-            {{> burger-list }}
-        </div>
-    </div>
-    <div class="row mt-5">
-        <div class="col-md-6 offset-md-3">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Burger Name" aria-label="Burger Name" id="burgerName">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-success" type="button" id="addBurger">Add</button>
-                </div>
+      <div class="col s6">
+        {{#each burgers}}
+          {{#unless this.devoured}}
+            <div>
+              <form action="/burgers/{{this.id}}?_method=PUT" method="POST">
+                <button type="submit" class='burgerAvailable'> {{this.burger_name}}</button>
+              </form>
             </div>
-        </div>
+          {{/unless}}
+        {{/each}}
+      </div>
+
+      <div class="col s6">
+        {{#each burgers}}
+          {{#if this.devoured}}
+            <div class='burgerEaten'>
+              <div>
+                {{this.burger_name}}
+              </div>
+            </div>
+          {{/if}}
+        {{/each}}
+      </div>
     </div>
+  </div>
+</main>
+
+<h2>Add A Burger Option</h2>
+
+<div class="row">
+  <div class="col s12">
+    <form action="/burgers" method="POST">
+      <input type="text" id="name" name="burger_name" placeholder="type here">
+      <button type="submit" class="addBurgerButton">Add The Burger</button>
+    </form>
+  </div>
 </div>
