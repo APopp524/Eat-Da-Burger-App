@@ -1,7 +1,9 @@
 # Eat - Da - Burger App
 
-This app is all about eating burgers, yes, that's right! You'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+This app is all about eating burgers, yes, that's right! You'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML. Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+## Technologies That Were Used
+Heroku | Express.js | Node.js | MySQL | JavaScript | JQuery | Bootstrap | CSS | HTML
 
 ## Live Demo
 
@@ -20,9 +22,6 @@ Finally, run the node server locally.
 	node server
 	
 Now, open the local application on port 3000 at the URL: `http://localhost:8080/`.
-
-### Technologies That Were Used
-Heroku | Express.js | Node.js | MySQL | JavaScript | JQuery | Bootstrap | CSS | HTML
 
 ## Screenshots
 
