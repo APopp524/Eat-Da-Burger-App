@@ -11,7 +11,7 @@ This app is all about eating burgers, yes, that's right! You'll create a burger 
 
 ## Demo
 
-The demo of the application can be found [here](https://arcane-retreat-58391.herokuapp.com/).
+The demo of the application can be found [here](https://infinite-hamlet-45472.herokuapp.com/).
 
 ## Installation
 
