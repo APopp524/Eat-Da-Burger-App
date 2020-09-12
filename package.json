@@ -1,8 +1,8 @@
 {
   "name": "eat-da-burger-app",
   "version": "1.0.0",
-  "description": "This app is all about eating burgers, yes, that's right! You'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)."
-  "main": "index.js",
+  "description": "This app is all about eating burgers, yes, that's right! You'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "exphbs": "^1.2.0",
